@@ -1,0 +1,29 @@
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', 'Lucida Grande';
+  font-size: 13px;
+  font-weight: 400;
+  box-sizing: border-box;
+  line-height: 1.42857143;
+}
+
+select {
+  background: #fff;
+  border: 1px solid #d4d7d9;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 5px;
+  height: 33px;
+  margin: 2px;
+}
+
+select:focus {
+  outline: none;
+  border-color: #007aff;
+  box-shadow: 0 0 5px rgba(1, 122, 255, .3);
+}
+
+@media print {
+  select {
+    display: none;
+  }
+}
